@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.926" tests="5" errors="0" skipped="4" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries\target\test-classes;C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries\target\classes;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mathu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mathu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mathu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mathu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mathu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mathu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mathu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mathu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mathu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mathu\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\mathu\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\mathu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mathu\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\mathu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\mathu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\mathu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mathu\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\mathu\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mathu\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\mathu\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mathu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mathu\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mathu\AppData\Local\Temp\surefire1108246001878908142\surefirebooter4526815163543453096.jar C:\Users\mathu\AppData\Local\Temp\surefire1108246001878908142 2020-12-25T14-44-02_331-jvmRun1 surefire2521896481825250637tmp surefire_08296627513850121269tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries\target\test-classes;C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries\target\classes;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mathu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mathu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mathu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mathu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mathu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mathu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mathu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mathu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mathu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mathu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mathu\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\mathu\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\mathu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mathu\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\mathu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\mathu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\mathu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mathu\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\mathu\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\mathu\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mathu\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\mathu\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mathu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mathu\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mathu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mathu\AppData\Local\Temp\surefire1108246001878908142\surefirebooter4526815163543453096.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="mathu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mathu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mathu\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\mathu\eclipse-workspace\HubSpotPOMSeries"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Cygwin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Users\mathu\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\allure-2.13.3\bin;C:\Program Files\Git\cmd;C:\Users\mathu\scoop\shims;C:\Users\mathu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Salesforce CLI\bin;C:\Users\mathu\AppData\Roaming\Dashlane\6.1937.0.23352\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\mathu\AppData\Roaming\Dashlane\6.1937.0.23352\ucrt;C:\Users\mathu\AppData\Roaming\Dashlane\6.1937.0.23352\bin\Qt;C:\Users\mathu\AppData\Roaming\Dashlane\6.1937.0.23352\bin\Ssl;C:\Users\mathu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mathu\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.qa.Katalon.tests.LoginPageTest" time="2.723">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 83.0.4103.97 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ABHISHEKLAPTOP&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0092C0C3+3326147]&#10;	Ordinal0 [0x00810851+2164817]&#10;	Ordinal0 [0x00697298+619160]&#10;	Ordinal0 [0x00611D92+73106]&#10;	Ordinal0 [0x0060E119+57625]&#10;	Ordinal0 [0x0060C38A+50058]&#10;	Ordinal0 [0x00635F3E+220990]&#10;	Ordinal0 [0x00635CAC+220332]&#10;	Ordinal0 [0x0063189B+202907]&#10;	Ordinal0 [0x00613DF4+81396]&#10;	Ordinal0 [0x00614DEE+85486]&#10;	Ordinal0 [0x00614D79+85369]&#10;	Ordinal0 [0x008285DC+2262492]&#10;	GetHandleVerifier [0x00AB2874+1487204]&#10;	GetHandleVerifier [0x00AB23CD+1486013]&#10;	GetHandleVerifier [0x00ABA368+1518680]&#10;	GetHandleVerifier [0x00AB2F4E+1488958]&#10;	Ordinal0 [0x0081ED0D+2223373]&#10;	Ordinal0 [0x0082A12B+2269483]&#10;	Ordinal0 [0x0082A26F+2269807]&#10;	Ordinal0 [0x0083ECB8+2354360]&#10;	BaseThreadInitThunk [0x768FFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75F4+228]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75C4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 83.0.4103.97 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABHISHEKLAPTOP', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0092C0C3+3326147]
+	Ordinal0 [0x00810851+2164817]
+	Ordinal0 [0x00697298+619160]
+	Ordinal0 [0x00611D92+73106]
+	Ordinal0 [0x0060E119+57625]
+	Ordinal0 [0x0060C38A+50058]
+	Ordinal0 [0x00635F3E+220990]
+	Ordinal0 [0x00635CAC+220332]
+	Ordinal0 [0x0063189B+202907]
+	Ordinal0 [0x00613DF4+81396]
+	Ordinal0 [0x00614DEE+85486]
+	Ordinal0 [0x00614D79+85369]
+	Ordinal0 [0x008285DC+2262492]
+	GetHandleVerifier [0x00AB2874+1487204]
+	GetHandleVerifier [0x00AB23CD+1486013]
+	GetHandleVerifier [0x00ABA368+1518680]
+	GetHandleVerifier [0x00AB2F4E+1488958]
+	Ordinal0 [0x0081ED0D+2223373]
+	Ordinal0 [0x0082A12B+2269483]
+	Ordinal0 [0x0082A26F+2269807]
+	Ordinal0 [0x0083ECB8+2354360]
+	BaseThreadInitThunk [0x768FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775C75F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775C75C4+180]
+
+	at com.qa.Katalon.tests.LoginPageTest.setUp(LoginPageTest.java:25)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 15147
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginPageTitle" classname="com.qa.Katalon.tests.LoginPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 83.0.4103.97 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ABHISHEKLAPTOP&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0092C0C3+3326147]&#10;	Ordinal0 [0x00810851+2164817]&#10;	Ordinal0 [0x00697298+619160]&#10;	Ordinal0 [0x00611D92+73106]&#10;	Ordinal0 [0x0060E119+57625]&#10;	Ordinal0 [0x0060C38A+50058]&#10;	Ordinal0 [0x00635F3E+220990]&#10;	Ordinal0 [0x00635CAC+220332]&#10;	Ordinal0 [0x0063189B+202907]&#10;	Ordinal0 [0x00613DF4+81396]&#10;	Ordinal0 [0x00614DEE+85486]&#10;	Ordinal0 [0x00614D79+85369]&#10;	Ordinal0 [0x008285DC+2262492]&#10;	GetHandleVerifier [0x00AB2874+1487204]&#10;	GetHandleVerifier [0x00AB23CD+1486013]&#10;	GetHandleVerifier [0x00ABA368+1518680]&#10;	GetHandleVerifier [0x00AB2F4E+1488958]&#10;	Ordinal0 [0x0081ED0D+2223373]&#10;	Ordinal0 [0x0082A12B+2269483]&#10;	Ordinal0 [0x0082A26F+2269807]&#10;	Ordinal0 [0x0083ECB8+2354360]&#10;	BaseThreadInitThunk [0x768FFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75F4+228]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75C4+180]&#10;"/>
+  </testcase>
+  <testcase name="verifySignupLink" classname="com.qa.Katalon.tests.LoginPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 83.0.4103.97 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ABHISHEKLAPTOP&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0092C0C3+3326147]&#10;	Ordinal0 [0x00810851+2164817]&#10;	Ordinal0 [0x00697298+619160]&#10;	Ordinal0 [0x00611D92+73106]&#10;	Ordinal0 [0x0060E119+57625]&#10;	Ordinal0 [0x0060C38A+50058]&#10;	Ordinal0 [0x00635F3E+220990]&#10;	Ordinal0 [0x00635CAC+220332]&#10;	Ordinal0 [0x0063189B+202907]&#10;	Ordinal0 [0x00613DF4+81396]&#10;	Ordinal0 [0x00614DEE+85486]&#10;	Ordinal0 [0x00614D79+85369]&#10;	Ordinal0 [0x008285DC+2262492]&#10;	GetHandleVerifier [0x00AB2874+1487204]&#10;	GetHandleVerifier [0x00AB23CD+1486013]&#10;	GetHandleVerifier [0x00ABA368+1518680]&#10;	GetHandleVerifier [0x00AB2F4E+1488958]&#10;	Ordinal0 [0x0081ED0D+2223373]&#10;	Ordinal0 [0x0082A12B+2269483]&#10;	Ordinal0 [0x0082A26F+2269807]&#10;	Ordinal0 [0x0083ECB8+2354360]&#10;	BaseThreadInitThunk [0x768FFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75F4+228]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75C4+180]&#10;"/>
+  </testcase>
+  <testcase name="loginPage" classname="com.qa.Katalon.tests.LoginPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 83.0.4103.97 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ABHISHEKLAPTOP&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0092C0C3+3326147]&#10;	Ordinal0 [0x00810851+2164817]&#10;	Ordinal0 [0x00697298+619160]&#10;	Ordinal0 [0x00611D92+73106]&#10;	Ordinal0 [0x0060E119+57625]&#10;	Ordinal0 [0x0060C38A+50058]&#10;	Ordinal0 [0x00635F3E+220990]&#10;	Ordinal0 [0x00635CAC+220332]&#10;	Ordinal0 [0x0063189B+202907]&#10;	Ordinal0 [0x00613DF4+81396]&#10;	Ordinal0 [0x00614DEE+85486]&#10;	Ordinal0 [0x00614D79+85369]&#10;	Ordinal0 [0x008285DC+2262492]&#10;	GetHandleVerifier [0x00AB2874+1487204]&#10;	GetHandleVerifier [0x00AB23CD+1486013]&#10;	GetHandleVerifier [0x00ABA368+1518680]&#10;	GetHandleVerifier [0x00AB2F4E+1488958]&#10;	Ordinal0 [0x0081ED0D+2223373]&#10;	Ordinal0 [0x0082A12B+2269483]&#10;	Ordinal0 [0x0082A26F+2269807]&#10;	Ordinal0 [0x0083ECB8+2354360]&#10;	BaseThreadInitThunk [0x768FFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75F4+228]&#10;	RtlGetAppContainerNamedObjectPath [0x775C75C4+180]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.Katalon.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
